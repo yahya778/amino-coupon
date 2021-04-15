@@ -11,7 +11,7 @@ print("""        \\\    ///wW  Ww\\\  ///   .-.
 import amino
 client = amino.Client()
 email = input("enter your email:")
-password = input("enter your password")
+password = input("enter your password:")
 client = amino.Client() 
 client.login(email=email, password=password)
 

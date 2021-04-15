@@ -15,5 +15,6 @@ password = input("enter your password:")
 client = amino.Client() 
 client.login(email=email, password=password)
 
-amino.socket.claim_new_user_coupon()
+
+print(client.claim_new_user_coupon())
  
